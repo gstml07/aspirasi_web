@@ -86,16 +86,27 @@ Berikut adalah penjelasan singkat tentang file-file utama dalam proyek ini:
 
 .
 ├── 📄 index.php           # Halaman login utama
+
 ├── 📄 register.php        # Halaman registrasi untuk mahasiswa
+
 ├── 📄 mahasiswa.php       # Dashboard untuk mahasiswa (mengirim & melihat aspirasi)
+
 ├── 📄 dosen.php           # Dashboard untuk dosen (melihat & membalas aspirasi)
+
 ├── 📄 koneksi.php         # Menghubungkan aplikasi ke database
+
 ├── 📄 setup.php           # (HAPUS SETELAH DIGUNAKAN) Skrip untuk setup database
+
 ├── 📁 proses/
+
 │   ├── 📄 proses_login.php
+
 │   ├── 📄 proses_register.php
+
 │   ├── 📄 proses_aspirasi.php
+
 │   └── 📄 proses_balasan.php
+
 └── 🎨 style.css           # File styling untuk semua halaman
 
 🖼️ Tampilan Aplikasi (Contoh)
