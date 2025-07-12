@@ -30,6 +30,9 @@ if ($password !== $confirm_password) {
 
 // 4. Cek apakah username sudah ada di database
 $stmt = $koneksi->prepare("SELECT id FROM users WHERE username = ?");
+if (!$stmt) {
+    die("Prepare statement gagal: " . $koneksi->error);
+}
 $stmt->bind_param("s", $username);
 $stmt->execute();
 $stmt->store_result();
