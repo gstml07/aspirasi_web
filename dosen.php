@@ -199,5 +199,45 @@ $aspirasi_result = $koneksi->query($query_aspirasi);
     </ul>
     <a href="logout.php" class="logout-link">Logout</a>
   </div>
+ <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/6287720772777" target="_blank" class="wa-float" title="Hubungi via WhatsApp">
+    <img src="logo/whatsapp-symbol-logo-svgrepo-com.svg" alt="WhatsApp" style="width:52px; height:52px;">
+  </a>
+  <style>
+    .wa-float {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      z-index: 99;
+      background: #25d366;
+      border-radius: 50%;
+      box-shadow: 0 4px 18px rgba(40,40,90,0.18);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: box-shadow 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+    .wa-float:hover {
+      box-shadow: 0 8px 32px rgba(40,40,90,0.28);
+      transform: scale(1.08);
+      background: #1ebe57;
+    }
+    .wa-float img {
+      display: block;
+    }
+    @media (max-width: 600px) {
+      .wa-float {
+        right: 12px;
+        bottom: 12px;
+        padding: 7px;
+      }
+      .wa-float img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  </style>
 </body>
 </html>

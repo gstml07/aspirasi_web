@@ -171,6 +171,72 @@ if (isset($_SESSION['role'])) {
     <div class="switch-form">
       Belum punya akun? <a href="register.php">Daftar di sini</a>
     </div>
+    <!-- Social Media Section -->
+    <div class="social-media" style="margin-top:18px; display:flex; justify-content:center; gap:18px;">
+      <a href="https://www.instagram.com/utb.univ/" target="_blank" class="ig-float" title="Kunjungi Instagram UTB">
+        <img src="logo/instagram-1-svgrepo-com.svg" alt="Instagram" style="width:44px; height:44px;">
+      </a>
+      <a href="http://m.utb-univ.id/" target="_blank" class="web-float" title="Kunjungi Website UTB">
+        <img src="logo/website-5793.svg" alt="Website" style="width:44px; height:44px;">
+      </a>
+    </div>
   </div>
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/6287720772777" target="_blank" class="wa-float" title="Hubungi via WhatsApp">
+    <img src="logo/whatsapp-symbol-logo-svgrepo-com.svg" alt="WhatsApp" style="width:52px; height:52px;">
+  </a>
+  <style>
+    .wa-float {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      z-index: 99;
+      background: #25d366;
+      border-radius: 50%;
+      box-shadow: 0 4px 18px rgba(40,40,90,0.18);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: box-shadow 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+    .wa-float:hover {
+      box-shadow: 0 8px 32px rgba(40,40,90,0.28);
+      transform: scale(1.08);
+      background: #1ebe57;
+    }
+    .wa-float img {
+      display: block;
+    }
+    .social-media .ig-float img,
+    .social-media .web-float img {
+      transition: transform 0.2s;
+    }
+    .social-media .ig-float:hover img {
+      transform: scale(1.12) rotate(-8deg);
+      filter: drop-shadow(0 2px 8px #6a11cb);
+    }
+    .social-media .web-float:hover img {
+      transform: scale(1.12) rotate(8deg);
+      filter: drop-shadow(0 2px 8px #2575fc);
+    }
+    @media (max-width: 600px) {
+      .wa-float {
+        right: 12px;
+        bottom: 12px;
+        padding: 7px;
+      }
+      .wa-float img {
+        width: 40px;
+        height: 40px;
+      }
+      .social-media .ig-float img,
+      .social-media .web-float img {
+        width: 34px;
+        height: 34px;
+      }
+    }
+  </style>
 </body>
 </html>
