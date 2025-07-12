@@ -21,6 +21,10 @@ if (isset($_SESSION['role'])) {
 </head>
 <body>
   <div class="login-container">
+    <div class="login-header" style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+      <img src="logo/254721151_utb_kotak.png" width="100px" alt="Logo Sistem Aspirasi" class="logo">
+    </div>
+
     <h2>Login Sistem Aspirasi</h2>
     
     <?php
