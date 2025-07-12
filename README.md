@@ -84,7 +84,7 @@ Setelah setup berhasil dan Anda bisa login, segera hapus file setup.php dari fol
 📂 Struktur File
 Berikut adalah penjelasan singkat tentang file-file utama dalam proyek ini:
 
-.
+
 ├── 📄 index.php           # Halaman login utama
 
 ├── 📄 register.php        # Halaman registrasi untuk mahasiswa
