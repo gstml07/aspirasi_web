@@ -1,7 +1,7 @@
-Sistem Aspirasi Mahasiswa (PHP Native)
+## Sistem Aspirasi Mahasiswa (PHP Native)
 Aplikasi web sederhana yang dibangun menggunakan PHP native dan MySQL untuk menjembatani komunikasi antara mahasiswa dan dosen. Aplikasi ini memungkinkan mahasiswa untuk menyuarakan aspirasi mereka terkait berbagai kategori, dan memungkinkan dosen untuk memberikan tanggapan secara langsung.
 Proyek ini dibuat sebagai studi kasus untuk implementasi sistem CRUD (Create, Read, Update, Delete) dengan otentikasi berbasis peran (role-based) menggunakan PHP native.
-✨ Fitur Utama
+# ✨ Fitur Utama
 Otentikasi Pengguna: Sistem login yang aman untuk dua jenis peran:
 Mahasiswa: Dapat mendaftar, login, mengirim, dan melihat riwayat aspirasi.
 Dosen: Dapat login, melihat semua aspirasi yang masuk, dan memberikan balasan.
